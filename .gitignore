@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.Python
+
+# Distribution / packaging
+*.egg-info/
+build/
+dist/
+.eggs/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Environment variable files
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Docker
+**/tmp/
+**/clamav/
+freshclam.log
+clamav.log
+
+# Google Cloud Build & Cloud Run artifacts
+.gcloudignore
+.cloudbuild/
